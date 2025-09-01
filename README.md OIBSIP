@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Resume - Yagna Priya T</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+      color: #333;
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      text-align: center;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    section:nth-child(odd) {
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-business-resume-background-material-image_177422.jpg")
+      
+    }
+
+    section:nth-child(even) {
+      background-image:url("https://i.pinimg.com/736x/d5/96/13/d596132eede5d64eceebdcefdf35a90f.jpg")
+     
+    }
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 700px;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background-color: rgba(0, 123, 255, 0.8);
+      padding: 10px 20px;
+      border-radius: 30px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-buttons a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      padding: 10px;
+      border-radius: 50%;
+      transition: background 0.3s;
+    }
+
+    .nav-buttons a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+   
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+        padding: 0 10px;
+      }
+      .nav-buttons a {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+ 
+  <section id="slide1">
+    <h1>Yagna Priya T</h1>
+    <p>CSE Sophomore @ SRM University | Aspiring Full Stack Developer | CCBP 4.0 | Nxtwave Learner | Engineer in Progress 🚀</p>
+  </section>
+
+  
+  <section id="slide2">
+    <h1>About Me</h1>
+    <p>I am a Computer Science sophomore at SRM University, currently building strong expertise in Full Stack Web Development through the CCBP 4.0 Academy (NxtWave). Passionate about coding, problem-solving, and creating impactful applications, I am actively seeking an internship opportunity to apply my skills in real-world projects and grow as a developer.<br>
+
+I enjoy working on projects that combine creativity with logical problem-solving. With a strong foundation in Computer Science fundamentals and continuous learning in modern web technologies, I aim to contribute effectively to a dynamic team.<br>
+
+🔹 Interests: Full Stack Development | Web Applications | Problem Solving | Software Engineering<br>
+🔹 Looking for: Internship opportunities in software development and web technologies</p>
+  </section>
+
+  
+  <section id="slide3">
+    <h1>Skills</h1>
+    <p> Languages: HTML, CSS, Python, SQL <br> Others: Communication, Leadership, Project Management </p>
+  </section>
+
+  
+  <section id="slide4">
+    <h1>Education</h1>
+    <p>ST.Mary's Matriculation Higher Secondary School (2020–2021)<br> Sri Chaitanya College of Education (2021-2023)<br> SRM Institute of Science And Technology (2023-2027)<br> Nxtwave(2025-2027)</p>
+  </section>
+
+  
+  <section id="slide5">
+    <h1>Contact</h1>
+    <p>Email: yagnapriya####@gmail.com<br>Phone: +91 12345 67891 <br> Location:  Ramapuram Chennai, Tamil Nadu  <br> </p>
+  </section>
+
+  
+  <nav>
+    <div class="nav-buttons">
+ 
+      <a href="#slide1" title="Home"><i class="fas fa-home"></i></a>
+      <a href="#slide2" title="About"><i class="fas fa-user"></i></a>
+      <a href="#slide3" title="Skills"><i class="fas fa-code"></i></a>
+      <a href="#slide4" title="Education"><i class="fas fa-book"></i></a>
+      <a href="#slide5" title="Contact"><i class="fas fa-envelope"></i></a>
+    </div>
+  </nav>
+
+</body>
+</html>
