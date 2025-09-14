@@ -108,6 +108,7 @@
 
  
   <section id="slide1">
+    <img src = "https://your-image-link-here.jpg" style="width:150px; height:150px;"/>
     <h1>Yagna Priya T</h1>
     <p>CSE Sophomore @ SRM University | Aspiring Full Stack Developer | CCBP 4.0 | Nxtwave Learner | Engineer in Progress 🚀</p>
   </section>
@@ -138,7 +139,7 @@ I enjoy working on projects that combine creativity with logical problem-solving
   
   <section id="slide5">
     <h1>Contact</h1>
-    <p>Email: yagnapriya####@gmail.com<br>Phone: +91 12345 67891 <br> Location:  Ramapuram Chennai, Tamil Nadu  <br> </p>
+    <p>Email: yagnapriya0108@gmail.com<br>Phone: +91 12345 67891 <br> Location: TNHB Apartments bharathi salai Ramapuram Chennai, Tamil Nadu  <br> </p>
   </section>
 
   
